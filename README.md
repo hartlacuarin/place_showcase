@@ -1,1 +1,1 @@
-# plcae_showcase
+# place_showcase
