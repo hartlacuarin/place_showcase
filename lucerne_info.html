@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Place Showcase</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        .navbar-custom {
+            background-color: #5D332D;
+        }
+
+        .navbar-brand {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .navbar-nav .nav-link {
+            color: #F5F5F5 !important;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #FFFFFF !important;
+        }
+
+        .attraction-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: .5rem;
+        }
+    </style>
+</head>
+
+<body id="top">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top shadow-lg">
+        <div class="container-fluid mx-4">
+            <a class="navbar-brand fw-bold fs-4" href="index.html">Lucerne</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#attractions-section">Attractions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5 py-5 text-center">
+        <h1 class="display-3 fw-bold mb-4" style="font-family: 'Playfair Display', serif;">
+            The Heart of Switzerland Awaits
+        </h1>
+        <p class="lead mb-3 mx-auto" style="max-width: 700px;">
+            Discover Lucerne, a stunning city where the past and present harmonize perfectly. Walk across its iconic
+            wooden bridges, gaze upon the turquoise waters of the lake, and find yourself captivated by the breathtaking
+            backdrop of snow-capped Alpine peaks. Your Swiss adventure begins here.
+        </p>
+    </div>
+
+    <div id="attractions-section" class="py-5" style="min-height: 500px; background-color: #e9ecef;">
+        <div class="container">
+            <h2 class="text-center display-5 fw-bold mb-5">Lucerne's Key Attractions</h2>
+
+            <div class="row align-items-center mb-5 pb-5 border-bottom">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h3 class="fw-bold mb-3">Chapel Bridge (Kapellbrücke)</h3>
+                    <p class="lead">
+                        As Europe’s oldest wooden covered bridge, the Kapellbrücke is the centerpiece of Lucerne.
+                        Originally built in the 14th century, it features a series of interior pictorial panels dating
+                        back to the 17th century, illustrating Lucerne's history and mythology.
+                    </p>
+                    <p>
+                        Though partially destroyed by fire in 1993, it was meticulously restored and stands today as a
+                        powerful symbol of the city's resilience. The adjacent octagonal Water Tower once served as a
+                        prison, treasury, and watchtower.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/chapel_bridge.jpg"
+                        alt="The wooden Chapel Bridge with the Water Tower in the background"
+                        class="attraction-image shadow-lg">
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-5 pb-5 border-bottom">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h3 class="fw-bold mb-3">Lion Monument (Löwendenkmal)</h3>
+                    <p class="lead">
+                        Carved directly into a sandstone cliff, the Lion Monument is one of the world's most famous
+                        memorials. It commemorates the Swiss Guards massacred in 1792 during the French Revolution when
+                        defending the royal family.
+                    </p>
+                    <p>
+                        Mark Twain described the sculpture of the dying lion as the "saddest and most moving piece of
+                        rock in the world." It is a powerful and somber tribute to courage and loyalty.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/lion_monument.jpg" alt="The famous Lion Monument in Lucerne"
+                        class="attraction-image shadow-lg">
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-5 pb-5 border-bottom">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h3 class="fw-bold mb-3">Mount Pilatus</h3>
+                    <p class="lead">
+                        Dominating the Lucerne skyline, Mount Pilatus offers a truly golden round trip experience.
+                        Visitors can ascend via the world's steepest cogwheel railway and descend by aerial gondolas or
+                        panorama cable cars.
+                    </p>
+                    <p>
+                        Legend says the mountain is named after Pontius Pilate and was once home to dragons with healing
+                        powers. At its peak, you'll find panoramic views of 73 Alpine peaks and the surrounding lakes.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/mount_pilatus.jpg" alt="A view of Mount Pilatus and its surrounding landscape"
+                        class="attraction-image shadow-lg">
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-5 pb-5 border-bottom">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h3 class="fw-bold mb-3">Lake Lucerne (Vierwaldstättersee)</h3>
+                    <p class="lead">
+                        This beautiful, irregularly shaped lake, the fourth largest in Switzerland, is ringed by
+                        dramatic mountains and offers stunning, fjord-like scenery. Its name translates to "Lake of the
+                        Four Forest Cantons."
+                    </p>
+                    <p>
+                        The most popular way to experience the lake is by taking a historic paddle steamer or modern
+                        motor vessel cruise, connecting Lucerne with scenic towns and the cable car bases for the
+                        surrounding peaks.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/lake_lucerne.jpg"
+                        alt="Lake Lucerne with paddle steamers and mountains in the background"
+                        class="attraction-image shadow-lg">
+                </div>
+            </div>
+
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h3 class="fw-bold mb-3">Old Town & Musegg Wall</h3>
+                    <p class="lead">
+                        Lucerne's Altstadt (Old Town) is a pedestrian paradise, known for its colorful, historic
+                        buildings adorned with elaborate frescoes and situated along the Reuss River. It's the perfect
+                        place for a leisurely stroll.
+                    </p>
+                    <p>
+                        Overlooking the Old Town is the Musegg Wall, a well-preserved section of the medieval
+                        fortifications. Several of its nine towers are open to the public, offering fantastic panoramic
+                        views of the city, lake, and mountains.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/musegg_wall.jpg"
+                        alt="The Musegg Wall towers overlooking the historic Old Town of Lucerne"
+                        class="attraction-image shadow-lg">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
